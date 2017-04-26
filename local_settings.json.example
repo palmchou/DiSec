@@ -1,0 +1,8 @@
+{
+  "_comment": "Please copy & rename this file to local_settings.json",
+  "path": "data",
+  "server_address": "127.0.0.1",
+  "port": 5007,
+  "auth_key": "CBSR1234",
+  "end_at": 300
+}
