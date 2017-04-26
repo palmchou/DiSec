@@ -117,7 +117,7 @@ while True:
 
         # save keywords information to local disk every 10 mins
         if (i % 5) == 0:
-            tmp_fp = open('keywords. .json', 'w')
+            tmp_fp = open('keywords.update.json', 'w')
             json.dump(keywords_local, tmp_fp)
             tmp_fp.close()
         # check if worker lost connection, and put keyword back to queue
