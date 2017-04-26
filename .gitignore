@@ -64,3 +64,4 @@ target/
 local_settings.json
 keywords.update.json
 keywords.json
+keyword_list.json
