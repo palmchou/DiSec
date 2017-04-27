@@ -5,13 +5,15 @@
       "search_engines": ["google", "bing"],
       "categories": [
         {
-          "category": "black_frame_glasses",
+          "category": "emotion_happy",
           "keywords": [
-            "black glasses", "Black Frame Glasses", "Black Frame Glasses for Men, Black Frame Glasses for women",
-            "Black Eye Glasses", "Black Eye Frames", "Black Eye Eyeglasses Frames", "Black Eye Brand Eyeglasses",
-            "45 Eye Eyeglasses Black Crystal", "Black Crystal Glasses", "Black Rimmed Glasses",
-            "black glasses frames for women", "black glasses frames for men", "black glasses frames for boy",
-            "black glasses frames for girl", "black glasses frames for baby"
+            "happy", "happy face", "happy faces", "happy boy"
+          ]
+        },
+        {
+          "category": "emotion_sad",
+          "keywords": [
+            "sad", "sad face", "sad faces"
           ]
         }
       ]
@@ -21,11 +23,15 @@
       "search_engines": ["google", "baidu", "bing" ],
       "categories": [
         {
-          "category": "black_frame_glasses",
+          "category": "emotion_happy",
           "keywords": [
-            "黑框眼镜", "黑框眼镜女孩", "黑框眼镜男孩", "黑框眼镜女生", "黑框眼镜男生", "黑框眼镜美女", "黑框眼镜帅哥",
-            "黑框眼镜美女生活照", "黑框眼镜帅哥生活照", "大黑框眼镜", "黑框眼镜发型", "黑框眼镜气质美女", "黑框眼镜气质帅哥",
-            "黑框眼镜男生头像", "黑框眼镜女生头像"
+            "高兴", "高兴的表情", "笑"
+          ]
+        },
+        {
+          "category": "emotion_sad",
+          "keywords": [
+            "悲伤", "哭", "悲伤的表情"
           ]
         }
       ]
