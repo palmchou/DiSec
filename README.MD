@@ -8,12 +8,14 @@ Beautiful Soup 4, install it using pip: `pip install bs4`.
 * Distributed Server-Worker design
 * Keywords could be categorised
 
-### How to Start
+### Get Started
 1. Set up settings by creating `local_settings.json`, there is an example of it provided
 2. Create `keyword_list.json` and fill keywords into it.
-3. Run `manager_server.py`, the manager server will start and listen to the port
+3. Use `keywords_creater.py` who reads the user defined `keyword_list.json` then generates `keywords.json` 
+which will be used by the manager server.
+4. Run `manager_server.py`, the manager server will start and listen to the port
 setted in `local_settings.json`
-4. Run `SEARCH_ENGINE_worker.py` to start crawling.
+5. Run `SEARCH_ENGINE_worker.py` to start crawling.
 
 ## 说明文档
 ### 依赖
@@ -27,5 +29,6 @@ Beautiful Soup 4, 使用 pip 安装： `pip install bs4`.
 ### 如何使用
 1. 参考样例，配置 `local_settings.json`
 2. 参考样例，创建 `keyword_list.json` 填写所需爬取的关键词列表.
-3. 运行 `manager_server.py`，manager server 将会监听 `local_settings.json` 所设置的端口
-4. 运行 `SEARCH_ENGINE_worker.py` 开始爬取.
+3. 使用 `keywords_creater.py` 来读取用户定义的 `keyword_list.json` 并生成 `keywords.sjon`
+4. 运行 `manager_server.py`，manager server 将会监听 `local_settings.json` 所设置的端口
+5. 运行 `SEARCH_ENGINE_worker.py` 开始爬取.
